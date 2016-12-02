@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018651F71DEFA4DE00D704E6 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 018651F61DEFA4DE00D704E6 /* Launch.png */; };
+		018651FA1DEFA9ED00D704E6 /* 10051500968.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 018651F91DEFA9ED00D704E6 /* 10051500968.mp3 */; };
+		0199D3F31DEC764700D4D8FC /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199D3F21DEC764700D4D8FC /* GoogleMobileAds.framework */; };
+		0199D3F51DEC768300D4D8FC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199D3F41DEC768300D4D8FC /* AdSupport.framework */; };
+		0199D3F71DEC76D800D4D8FC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199D3F61DEC76D800D4D8FC /* CoreTelephony.framework */; };
+		0199D3F91DEC76EC00D4D8FC /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199D3F81DEC76EC00D4D8FC /* EventKit.framework */; };
+		0199D3FB1DEC76F300D4D8FC /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199D3FA1DEC76F300D4D8FC /* EventKitUI.framework */; };
+		0199D3FD1DEC770100D4D8FC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199D3FC1DEC770100D4D8FC /* MessageUI.framework */; };
+		0199D3FF1DEC770C00D4D8FC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199D3FE1DEC770C00D4D8FC /* StoreKit.framework */; };
+		0199D4011DEC771800D4D8FC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0199D4001DEC771800D4D8FC /* SystemConfiguration.framework */; };
+		0199D4131DEC84D400D4D8FC /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0199D4121DEC84D400D4D8FC /* MyViewController.swift */; };
+		01F9CF461DEF293F00ACA4DC /* 331.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01F9CF451DEF293F00ACA4DC /* 331.jpg */; };
+		01F9CF481DEF298900ACA4DC /* 332.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01F9CF471DEF298900ACA4DC /* 332.jpg */; };
+		01F9CF4A1DEF29B800ACA4DC /* 333.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01F9CF491DEF29B800ACA4DC /* 333.jpg */; };
+		01F9CF4C1DEF2A1000ACA4DC /* 334.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01F9CF4B1DEF2A1000ACA4DC /* 334.jpg */; };
+		01F9CF4E1DEF460E00ACA4DC /* imagess.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01F9CF4D1DEF460E00ACA4DC /* imagess.jpeg */; };
+		189E17931DDDD53600D578B1 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189E17921DDDD53600D578B1 /* IJKMediaFramework.framework */; };
 		18E9BD411DDDCEB1002C9674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9BD401DDDCEB1002C9674 /* AppDelegate.swift */; };
 		18E9BD431DDDCEB2002C9674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9BD421DDDCEB2002C9674 /* ViewController.swift */; };
 		18E9BD461DDDCEB2002C9674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9BD441DDDCEB2002C9674 /* Main.storyboard */; };
@@ -14,6 +31,19 @@
 		18E9BD4B1DDDCEB2002C9674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E9BD491DDDCEB2002C9674 /* LaunchScreen.storyboard */; };
 		18E9BD561DDDCEB2002C9674 /* text1117Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9BD551DDDCEB2002C9674 /* text1117Tests.swift */; };
 		18E9BD611DDDCEB2002C9674 /* text1117UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9BD601DDDCEB2002C9674 /* text1117UITests.swift */; };
+		18E9BD721DDDCFAF002C9674 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD711DDDCFAF002C9674 /* AudioToolbox.framework */; };
+		18E9BD741DDDCFBA002C9674 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD731DDDCFBA002C9674 /* AVFoundation.framework */; };
+		18E9BD761DDDCFC4002C9674 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD751DDDCFC4002C9674 /* CoreGraphics.framework */; };
+		18E9BD781DDDCFD1002C9674 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD771DDDCFD1002C9674 /* CoreMedia.framework */; };
+		18E9BD7A1DDDCFDA002C9674 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD791DDDCFDA002C9674 /* CoreVideo.framework */; };
+		18E9BD7C1DDDCFE4002C9674 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD7B1DDDCFE4002C9674 /* libbz2.tbd */; };
+		18E9BD7E1DDDCFEC002C9674 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD7D1DDDCFEC002C9674 /* libz.tbd */; };
+		18E9BD801DDDCFF6002C9674 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD7F1DDDCFF6002C9674 /* MediaPlayer.framework */; };
+		18E9BD821DDDD009002C9674 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD811DDDD009002C9674 /* OpenGLES.framework */; };
+		18E9BD841DDDD011002C9674 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD831DDDD011002C9674 /* QuartzCore.framework */; };
+		18E9BD861DDDD018002C9674 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD851DDDD018002C9674 /* UIKit.framework */; };
+		18E9BD881DDDD01F002C9674 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD871DDDD01F002C9674 /* VideoToolbox.framework */; };
+		18E9BD8A1DDDD31C002C9674 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E9BD891DDDD31C002C9674 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +64,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018651F61DEFA4DE00D704E6 /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+		018651F91DEFA9ED00D704E6 /* 10051500968.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10051500968.mp3; sourceTree = "<group>"; };
+		0199D3F21DEC764700D4D8FC /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		0199D3F41DEC768300D4D8FC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		0199D3F61DEC76D800D4D8FC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0199D3F81DEC76EC00D4D8FC /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		0199D3FA1DEC76F300D4D8FC /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		0199D3FC1DEC770100D4D8FC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0199D3FE1DEC770C00D4D8FC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0199D4001DEC771800D4D8FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0199D4121DEC84D400D4D8FC /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		01F9CF451DEF293F00ACA4DC /* 331.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 331.jpg; sourceTree = "<group>"; };
+		01F9CF471DEF298900ACA4DC /* 332.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 332.jpg; sourceTree = "<group>"; };
+		01F9CF491DEF29B800ACA4DC /* 333.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 333.jpg; sourceTree = "<group>"; };
+		01F9CF4B1DEF2A1000ACA4DC /* 334.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 334.jpg; sourceTree = "<group>"; };
+		01F9CF4D1DEF460E00ACA4DC /* imagess.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imagess.jpeg; sourceTree = "<group>"; };
+		189E17921DDDD53600D578B1 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		18E9BD3D1DDDCEB1002C9674 /* text1117.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = text1117.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E9BD401DDDCEB1002C9674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E9BD421DDDCEB2002C9674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +94,19 @@
 		18E9BD5C1DDDCEB2002C9674 /* text1117UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = text1117UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E9BD601DDDCEB2002C9674 /* text1117UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = text1117UITests.swift; sourceTree = "<group>"; };
 		18E9BD621DDDCEB2002C9674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E9BD711DDDCFAF002C9674 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18E9BD731DDDCFBA002C9674 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18E9BD751DDDCFC4002C9674 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18E9BD771DDDCFD1002C9674 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18E9BD791DDDCFDA002C9674 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		18E9BD7B1DDDCFE4002C9674 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		18E9BD7D1DDDCFEC002C9674 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18E9BD7F1DDDCFF6002C9674 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		18E9BD811DDDD009002C9674 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		18E9BD831DDDD011002C9674 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18E9BD851DDDD018002C9674 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E9BD871DDDD01F002C9674 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		18E9BD891DDDD31C002C9674 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +114,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0199D4011DEC771800D4D8FC /* SystemConfiguration.framework in Frameworks */,
+				0199D3FF1DEC770C00D4D8FC /* StoreKit.framework in Frameworks */,
+				0199D3FD1DEC770100D4D8FC /* MessageUI.framework in Frameworks */,
+				0199D3FB1DEC76F300D4D8FC /* EventKitUI.framework in Frameworks */,
+				0199D3F91DEC76EC00D4D8FC /* EventKit.framework in Frameworks */,
+				0199D3F71DEC76D800D4D8FC /* CoreTelephony.framework in Frameworks */,
+				18E9BD761DDDCFC4002C9674 /* CoreGraphics.framework in Frameworks */,
+				18E9BD741DDDCFBA002C9674 /* AVFoundation.framework in Frameworks */,
+				18E9BD721DDDCFAF002C9674 /* AudioToolbox.framework in Frameworks */,
+				0199D3F51DEC768300D4D8FC /* AdSupport.framework in Frameworks */,
+				0199D3F31DEC764700D4D8FC /* GoogleMobileAds.framework in Frameworks */,
+				18E9BD8A1DDDD31C002C9674 /* MobileCoreServices.framework in Frameworks */,
+				18E9BD881DDDD01F002C9674 /* VideoToolbox.framework in Frameworks */,
+				18E9BD861DDDD018002C9674 /* UIKit.framework in Frameworks */,
+				18E9BD841DDDD011002C9674 /* QuartzCore.framework in Frameworks */,
+				18E9BD821DDDD009002C9674 /* OpenGLES.framework in Frameworks */,
+				18E9BD801DDDCFF6002C9674 /* MediaPlayer.framework in Frameworks */,
+				18E9BD7E1DDDCFEC002C9674 /* libz.tbd in Frameworks */,
+				18E9BD7C1DDDCFE4002C9674 /* libbz2.tbd in Frameworks */,
+				18E9BD7A1DDDCFDA002C9674 /* CoreVideo.framework in Frameworks */,
+				18E9BD781DDDCFD1002C9674 /* CoreMedia.framework in Frameworks */,
+				189E17931DDDD53600D578B1 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +159,13 @@
 		18E9BD341DDDCEB1002C9674 = {
 			isa = PBXGroup;
 			children = (
+				0199D3F21DEC764700D4D8FC /* GoogleMobileAds.framework */,
+				189E17921DDDD53600D578B1 /* IJKMediaFramework.framework */,
 				18E9BD3F1DDDCEB1002C9674 /* text1117 */,
 				18E9BD541DDDCEB2002C9674 /* text1117Tests */,
 				18E9BD5F1DDDCEB2002C9674 /* text1117UITests */,
 				18E9BD3E1DDDCEB1002C9674 /* Products */,
+				18E9BD701DDDCFAF002C9674 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +184,17 @@
 			children = (
 				18E9BD401DDDCEB1002C9674 /* AppDelegate.swift */,
 				18E9BD421DDDCEB2002C9674 /* ViewController.swift */,
+				0199D4121DEC84D400D4D8FC /* MyViewController.swift */,
 				18E9BD441DDDCEB2002C9674 /* Main.storyboard */,
 				18E9BD471DDDCEB2002C9674 /* Assets.xcassets */,
 				18E9BD491DDDCEB2002C9674 /* LaunchScreen.storyboard */,
+				018651F91DEFA9ED00D704E6 /* 10051500968.mp3 */,
+				01F9CF4D1DEF460E00ACA4DC /* imagess.jpeg */,
+				018651F61DEFA4DE00D704E6 /* Launch.png */,
+				01F9CF451DEF293F00ACA4DC /* 331.jpg */,
+				01F9CF471DEF298900ACA4DC /* 332.jpg */,
+				01F9CF491DEF29B800ACA4DC /* 333.jpg */,
+				01F9CF4B1DEF2A1000ACA4DC /* 334.jpg */,
 				18E9BD4C1DDDCEB2002C9674 /* Info.plist */,
 			);
 			path = text1117;
@@ -123,6 +216,33 @@
 				18E9BD621DDDCEB2002C9674 /* Info.plist */,
 			);
 			path = text1117UITests;
+			sourceTree = "<group>";
+		};
+		18E9BD701DDDCFAF002C9674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0199D4001DEC771800D4D8FC /* SystemConfiguration.framework */,
+				0199D3FE1DEC770C00D4D8FC /* StoreKit.framework */,
+				0199D3FC1DEC770100D4D8FC /* MessageUI.framework */,
+				0199D3FA1DEC76F300D4D8FC /* EventKitUI.framework */,
+				0199D3F81DEC76EC00D4D8FC /* EventKit.framework */,
+				0199D3F61DEC76D800D4D8FC /* CoreTelephony.framework */,
+				0199D3F41DEC768300D4D8FC /* AdSupport.framework */,
+				18E9BD891DDDD31C002C9674 /* MobileCoreServices.framework */,
+				18E9BD871DDDD01F002C9674 /* VideoToolbox.framework */,
+				18E9BD851DDDD018002C9674 /* UIKit.framework */,
+				18E9BD831DDDD011002C9674 /* QuartzCore.framework */,
+				18E9BD811DDDD009002C9674 /* OpenGLES.framework */,
+				18E9BD7F1DDDCFF6002C9674 /* MediaPlayer.framework */,
+				18E9BD7D1DDDCFEC002C9674 /* libz.tbd */,
+				18E9BD7B1DDDCFE4002C9674 /* libbz2.tbd */,
+				18E9BD791DDDCFDA002C9674 /* CoreVideo.framework */,
+				18E9BD771DDDCFD1002C9674 /* CoreMedia.framework */,
+				18E9BD751DDDCFC4002C9674 /* CoreGraphics.framework */,
+				18E9BD731DDDCFBA002C9674 /* AVFoundation.framework */,
+				18E9BD711DDDCFAF002C9674 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +352,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F9CF4A1DEF29B800ACA4DC /* 333.jpg in Resources */,
+				01F9CF4E1DEF460E00ACA4DC /* imagess.jpeg in Resources */,
 				18E9BD4B1DDDCEB2002C9674 /* LaunchScreen.storyboard in Resources */,
+				018651F71DEFA4DE00D704E6 /* Launch.png in Resources */,
 				18E9BD481DDDCEB2002C9674 /* Assets.xcassets in Resources */,
+				01F9CF461DEF293F00ACA4DC /* 331.jpg in Resources */,
+				018651FA1DEFA9ED00D704E6 /* 10051500968.mp3 in Resources */,
+				01F9CF481DEF298900ACA4DC /* 332.jpg in Resources */,
+				01F9CF4C1DEF2A1000ACA4DC /* 334.jpg in Resources */,
 				18E9BD461DDDCEB2002C9674 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E9BD431DDDCEB2002C9674 /* ViewController.swift in Sources */,
+				0199D4131DEC84D400D4D8FC /* MyViewController.swift in Sources */,
 				18E9BD411DDDCEB1002C9674 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +461,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -382,6 +511,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -410,6 +540,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = text1117/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = text1018.text1117;
@@ -422,6 +556,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = text1117/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = text1018.text1117;
@@ -503,6 +641,7 @@
 				18E9BD671DDDCEB2002C9674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9BD681DDDCEB2002C9674 /* Build configuration list for PBXNativeTarget "text1117Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +650,7 @@
 				18E9BD6A1DDDCEB2002C9674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E9BD6B1DDDCEB2002C9674 /* Build configuration list for PBXNativeTarget "text1117UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +659,7 @@
 				18E9BD6D1DDDCEB2002C9674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
